@@ -14,7 +14,7 @@ const spinner = () => {
 
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\r\\   '); 
+    process.stdout.write('\r\\   ');
   }, 700);
 
   setTimeout(() => {
@@ -31,17 +31,17 @@ const spinner = () => {
 
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\r\\   '); 
+    process.stdout.write('\r\\   ');
   }, 1500);
 
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\r|   '); 
+    process.stdout.write('\r|   ');
   }, 1700);
 
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\n'); 
+    process.stdout.write('\n');
   }, 1750);
 };
 
