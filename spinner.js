@@ -43,7 +43,6 @@ const spinner = () => {
     // Need to escape the backslash since it's a special character.
     process.stdout.write('\n'); 
   }, 1750);
-  // ... fill in the rest yourself ...
 };
 
 spinner();
